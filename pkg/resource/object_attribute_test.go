@@ -12,9 +12,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-codegen-spec/resource"
 	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
-	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/convert"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/model"
+	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/pkg/schema"
 )
 
 func TestGeneratorObjectAttribute_New(t *testing.T) {

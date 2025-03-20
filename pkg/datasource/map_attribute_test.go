@@ -12,8 +12,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-codegen-spec/datasource"
 	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/convert"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/model"
 )
 
 func TestGeneratorMapAttribute_New(t *testing.T) {

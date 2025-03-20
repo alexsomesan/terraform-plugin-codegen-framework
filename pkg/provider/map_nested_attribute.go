@@ -10,9 +10,9 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/convert"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/model"
+	"github.com/hashicorp/terraform-plugin-codegen-framework/pkg/schema"
 )
 
 type GeneratorMapNestedAttribute struct {
